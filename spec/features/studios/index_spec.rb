@@ -1,11 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe "Studio Index" do
-  #  As a user,
-  # When I visit the studio index page
-  # I see a each studio's name and location
-  # And underneath each studio, I see the titles of all of its movies.
-
+  
   it 'shows studios and their info' do
     universal = Studio.create!(name: 'Universal Studios', location: 'Hollywood')
     fox = Studio.create!(name: 'Fox Studios', location: 'Hollywood')
